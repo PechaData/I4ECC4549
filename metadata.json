@@ -1,0 +1,159 @@
+{
+  "@type": "AnnotationStore",
+  "@id": "I4ECC4549",
+  "resources": [
+    {
+      "@type": "TextResource",
+      "@id": "447d",
+      "@include": "base/447d.txt"
+    }
+  ],
+  "annotationsets": [
+    {
+      "@type": "AnnotationDataSet",
+      "@id": "Meta_Data",
+      "keys": [
+        {
+          "@type": "DataKey",
+          "@id": "id_"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "title"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "author"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "created_at"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "source"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "type"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "language"
+        }
+      ],
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "4942a82c946043cc9a2fd8bc59ee8f6d",
+          "key": "id_",
+          "value": {
+            "@type": "String",
+            "value": "12345"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "e00b62ddc0774cb58cbcd91a33953f54",
+          "key": "title",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Source Title 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "154885b225e34c2aadf61b2c66bbe3eb",
+          "key": "author",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Source Author 1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "53074b4e97f24313b0bfb8defe430efc",
+          "key": "created_at",
+          "value": {
+            "@type": "String",
+            "value": "2024-08-21 10:28:09.821216"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "af626234ade64aa3b06554ccf9ccce14",
+          "key": "source",
+          "value": {
+            "@type": "String",
+            "value": "Chojuk Source"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "8ed61546d2954e9aa43ef3b16ab31a74",
+          "key": "type",
+          "value": {
+            "@type": "String",
+            "value": "Root_Segment"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "c0e586f7f21141b8824937c8fd9eda2c",
+          "key": "language",
+          "value": {
+            "@type": "String",
+            "value": "Tibetan"
+          }
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "Annotation",
+      "@id": "dc6a06a047864d26b9a69fc846ab7f3f",
+      "target": {
+        "@type": "ResourceSelector",
+        "resource": "447d"
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "4942a82c946043cc9a2fd8bc59ee8f6d",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "e00b62ddc0774cb58cbcd91a33953f54",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "154885b225e34c2aadf61b2c66bbe3eb",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "53074b4e97f24313b0bfb8defe430efc",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "af626234ade64aa3b06554ccf9ccce14",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "8ed61546d2954e9aa43ef3b16ab31a74",
+          "set": "Meta_Data"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "c0e586f7f21141b8824937c8fd9eda2c",
+          "set": "Meta_Data"
+        }
+      ]
+    }
+  ]
+}
